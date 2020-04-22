@@ -1,0 +1,91 @@
+.vertical {
+   padding: 100px 0px;
+
+   // .vertical__title
+   &__title {
+      text-align: center;
+      margin: 0px 0px 0px 0px;
+      line-height: 18px;
+      text-transform: uppercase;
+      font-size: 18px;
+   }
+
+   // .vertical__body
+   &__body {
+      max-width: 500px;
+      margin: 0px auto;
+      padding: 0px 10px;
+   }
+
+   // .vertical__row
+   &__row {
+      display: flex;
+      flex-direction: column;
+   }
+
+   // .vertical__column
+   &__column {
+      margin: 30px 0px;
+   }
+
+   // .vertical__item
+   &__item {
+      padding: 10px 0px 0px 0px;
+      background-color: #b0b0ff;
+   }
+
+   // .vertical__subtitle
+   &__subtitle {
+      margin: 10px 0px;
+      text-align: center;
+      padding: 0px 0px 7px 0px;
+   }
+
+   // .vertical__group
+   &__group {
+      margin: 2px 0px 0px;
+      padding: 10px 20px;
+      background-color: #efefef;
+   }
+
+   // .vertical__time
+
+   &__time {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0px;
+   }
+
+   // .vertical__number
+   &__number {
+   }
+
+   // .vertical__lecture
+   &__lecture {
+   }
+
+   // .vertical__table
+   &__table {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   // .vertical__object
+   &__object {
+   }
+
+   // .vertical__stroka
+   &__stroka {
+      display: flex;
+   }
+
+   // .vertical__cabinet
+   &__cabinet {
+   }
+
+   // .vertical__teacher
+   &__teacher {
+   }
+}
+.container {
+}

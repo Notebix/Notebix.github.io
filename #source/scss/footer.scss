@@ -1,0 +1,50 @@
+.footer {
+   background-color: gray;
+
+   // .footer__row
+
+   &__row {
+      
+      display: flex;
+      height: 30%;
+      justify-content: space-between;
+      align-items: center; 
+   }
+
+  &__perenos{
+      display: flex;
+      flex-direction: column;
+      padding: 5px 0px;
+      letter-spacing: 0.3px;
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      
+   }
+
+
+   &__text1{
+      text-align: center;
+   }
+
+
+
+   &__text2{
+text-align: center;
+   }
+
+   &__text3{
+      text-align: center;
+   }  
+   
+ 
+}
+
+@media (max-width: 767px) {
+   .footer__row{
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+   }
+   
+}
